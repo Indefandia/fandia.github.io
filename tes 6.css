@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+body{
+    background-image: url(School_Notebooks_Pencils_Ballpoint_pen_561232_1280x853.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar{
+    margin: auto;
+    text-align: center;
+    font-family: fantasy;
+    width: 100%;
+    font-size: 20px;
+}
+.navbar ul{
+    background: none;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+    padding: 0 20px;
+}
+.navbar ul li{
+    float: right;
+}
+.navbar ul li:hover{
+    background: black;
+    
+}
+.navbar ul li:hover a{
+    color: snow;
+}
+.navbar ul li a{
+    display: block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+.mainbox{
+    margin-top: 30px;
+    margin-left:20px;
+    margin-bottom: 500px
+    background: rgba(255,255,255,.3);
+    height: 550px;
+    width: 700px;
+    border-radius: 25px;
+    white-space: 25px;
+    box-shadow: 8px 8px 10px rgba(0,0,0,.3);
+    background-color: white;
+}
+h1{
+    font-family: comic sans;
+}
